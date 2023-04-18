@@ -1,0 +1,62 @@
+.main{
+    width: 500px;
+    height: 0;
+    background-color: #fff;
+    margin:1em auto;
+    position: relative;
+}
+.main input{
+    width: 98%;
+
+    outline: none;
+    border: none;
+    padding: 10px 0 10px 5px;
+    font-size: 1.3em; 
+}
+.main button{
+    outline:none;
+    border:none;
+    background-color: transparent;
+    font-size: 2em;
+}
+.main i{
+    position: absolute;
+    top: 0.1em;
+    right: 1em;
+}
+.big{
+    margin-top: 4em;
+}
+.todo-task {
+    width: 100%;
+}
+
+.manage{
+    width: 500px;
+    background-color: #fff;
+    margin: 1em auto;
+    display: flex;
+    justify-content: space-around;
+}
+.manage input{
+    outline:none;
+    border:none;
+    width: 80%;
+    padding: 10px 0 10px 5px;
+    font-size: 1.3em;
+}
+.manage i{
+    font-size: 1.8em;
+    cursor: pointer;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.todo{
+    background-color:rgb(166, 135, 228);
+    width: 500px;
+    padding-top: .5em;
+    margin:auto;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
